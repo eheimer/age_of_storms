@@ -1,0 +1,21 @@
+{
+  "name": "ageofstorms_poc1",
+  "version": "1.0.0",
+  "description": "Age of Storms Tech Stack Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^5.1.1",
+    "socket.io": "^2.2.0",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.18.10"
+  }
+}

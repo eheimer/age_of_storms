@@ -1,0 +1,9 @@
+const port = parseInt(process.env.PORT, 10) || 4200;
+
+// Generate a random map
+const TileMap = require('../server/Map').Map;
+const map = new TileMap(100, 100, 10);
+
+require('../server/websockets').Server(port, map);
+
+console.log('Server ready. Use http://localhost:' + port);
